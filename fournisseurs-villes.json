@@ -1,0 +1,179 @@
+{
+  "fournisseurs": [
+    {
+      "ville": "Dakar",
+      "pays": "Sénégal",
+      "produits": [
+        {
+          "id": 1,
+          "nom": "Casque Audio Bluetooth Pro",
+          "prix": 59,
+          "ancienPrix": 89,
+          "categorie": "Électronique",
+          "badge": "Best Seller",
+          "priorite": "Haute",
+          "raison": "Forte demande en électronique à Dakar"
+        },
+        {
+          "id": 3,
+          "nom": "Chargeur Rapide USB-C",
+          "prix": 22,
+          "ancienPrix": 35,
+          "categorie": "Électronique",
+          "badge": "Promotion",
+          "priorite": "Haute",
+          "raison": "Petit prix, excellent ratio vente/logistique"
+        },
+        {
+          "id": 4,
+          "nom": "Lampe LED Design",
+          "prix": 39,
+          "ancienPrix": 60,
+          "categorie": "Maison",
+          "badge": "Nouveau",
+          "priorite": "Moyenne",
+          "raison": "Bon pour le marché local"
+        },
+        {
+          "id": 9,
+          "nom": "Sac à Dos Business",
+          "prix": 52,
+          "ancienPrix": 80,
+          "categorie": "Mode",
+          "badge": "Top Vente",
+          "priorite": "Haute",
+          "raison": "Très demandé par les professionnels"
+        },
+        {
+          "id": 10,
+          "nom": "Coffret Cuisine Minimal",
+          "prix": 65,
+          "ancienPrix": 90,
+          "categorie": "Maison",
+          "badge": "Nouveau",
+          "priorite": "Moyenne",
+          "raison": "Produit pratique et accessible"
+        }
+      ]
+    },
+    {
+      "ville": "Abidjan",
+      "pays": "Côte d'Ivoire",
+      "produits": [
+        {
+          "id": 2,
+          "nom": "Montre Connectée Sport",
+          "prix": 69,
+          "ancienPrix": 99,
+          "categorie": "Accessoires",
+          "badge": "Top Vente",
+          "priorite": "Haute",
+          "raison": "Tendance en accessoires tech"
+        },
+        {
+          "id": 6,
+          "nom": "Mini Projecteur Portable",
+          "prix": 99,
+          "ancienPrix": 149,
+          "categorie": "Multimédia",
+          "badge": "Haut de Gamme",
+          "priorite": "Haute",
+          "raison": "Produit premium très demandé"
+        },
+        {
+          "id": 7,
+          "nom": "Botte de Nuit Premium",
+          "prix": 34,
+          "ancienPrix": 54,
+          "categorie": "Beauté",
+          "badge": "Très demandé",
+          "priorite": "Moyenne",
+          "raison": "Fort potentiel beauté à Abidjan"
+        },
+        {
+          "id": 11,
+          "nom": "Écouteurs Sans Fil Air",
+          "prix": 45,
+          "ancienPrix": 70,
+          "categorie": "Audio",
+          "badge": "Best Seller",
+          "priorite": "Haute",
+          "raison": "Audio premium, très tendance"
+        },
+        {
+          "id": 12,
+          "nom": "Appareil de Massage Portable",
+          "prix": 77,
+          "ancienPrix": 120,
+          "categorie": "Bien-être",
+          "badge": "Très demandé",
+          "priorite": "Moyenne",
+          "raison": "Bien-être et détente"
+        }
+      ]
+    },
+    {
+      "ville": "Bamako",
+      "pays": "Mali",
+      "produits": [
+        {
+          "id": 5,
+          "nom": "Tondeuse Electrique Compact",
+          "prix": 74,
+          "ancienPrix": 110,
+          "categorie": "Jardin",
+          "badge": "Best Seller",
+          "priorite": "Haute",
+          "raison": "Utilité pratique et forte demande"
+        },
+        {
+          "id": 6,
+          "nom": "Mini Projecteur Portable",
+          "prix": 99,
+          "ancienPrix": 149,
+          "categorie": "Multimédia",
+          "badge": "Haut de Gamme",
+          "priorite": "Moyenne",
+          "raison": "Produit premium pour marché émergeant"
+        },
+        {
+          "id": 8,
+          "nom": "Brosse à Dent Électrique",
+          "prix": 29,
+          "ancienPrix": 45,
+          "categorie": "Beauté",
+          "badge": "Best Seller",
+          "priorite": "Haute",
+          "raison": "Petit prix, hygiène importante"
+        },
+        {
+          "id": 10,
+          "nom": "Coffret Cuisine Minimal",
+          "prix": 65,
+          "ancienPrix": 90,
+          "categorie": "Maison",
+          "badge": "Nouveau",
+          "priorite": "Moyenne",
+          "raison": "Accessoires essentiels"
+        },
+        {
+          "id": 12,
+          "nom": "Appareil de Massage Portable",
+          "prix": 77,
+          "ancienPrix": 120,
+          "categorie": "Bien-être",
+          "badge": "Très demandé",
+          "priorite": "Moyenne",
+          "raison": "Bien-être accessible"
+        }
+      ]
+    }
+  ],
+  "résumé": {
+    "totalProduits": 15,
+    "villesCouverts": 3,
+    "revenuEstimé": "15,000 - 25,000 €",
+    "meilleursProduits": [1, 2, 3, 5, 6, 8, 11],
+    "stratégie": "Électronique + Bien-être + Accessoires"
+  }
+}
