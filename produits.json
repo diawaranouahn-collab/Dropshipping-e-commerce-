@@ -1,0 +1,164 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Casque Audio Bluetooth Pro",
+      "prix": 59,
+      "ancienPrix": 89,
+      "image": "images/p1.jpg",
+      "categorie": "Électronique",
+      "badge": "Best Seller",
+      "description": "Casque léger, son équilibré et autonomie jusqu'à 20h."
+    },
+    {
+      "id": 2,
+      "nom": "Montre Connectée Sport",
+      "prix": 69,
+      "ancienPrix": 99,
+      "image": "images/p2.jpg",
+      "categorie": "Accessoires",
+      "badge": "Top Vente",
+      "description": "Suivi de sport, fréquence cardiaque et notifications."
+    },
+    {
+      "id": 3,
+      "nom": "Chargeur Rapide USB-C",
+      "prix": 22,
+      "ancienPrix": 35,
+      "image": "images/p3.jpg",
+      "categorie": "Électronique",
+      "badge": "Promotion",
+      "description": "Charge rapide 65W pour smartphone, tablette et PC portable."
+    },
+    {
+      "id": 4,
+      "nom": "Lampe LED Design",
+      "prix": 39,
+      "ancienPrix": 60,
+      "image": "images/p4.jpg",
+      "categorie": "Maison",
+      "badge": "Nouveau",
+      "description": "Ambiance lumineuse moderne et réglable selon vos envies."
+    },
+    {
+      "id": 5,
+      "nom": "Tondeuse Electrique Compact",
+      "prix": 74,
+      "ancienPrix": 110,
+      "image": "images/p5.jpg",
+      "categorie": "Jardin",
+      "badge": "Best Seller",
+      "description": "Puissante, légère, et facile à ranger après usage."
+    },
+    {
+      "id": 6,
+      "nom": "Mini Projecteur Portable",
+      "prix": 99,
+      "ancienPrix": 149,
+      "image": "images/p6.jpg",
+      "categorie": "Multimédia",
+      "badge": "Haut de Gamme",
+      "description": "Projection claire en intérieur ou en plein air."
+    },
+    {
+      "id": 7,
+      "nom": "Botte de Nuit Premium",
+      "prix": 34,
+      "ancienPrix": 54,
+      "image": "images/p7.jpg",
+      "categorie": "Beauté",
+      "badge": "Très demandé",
+      "description": "Confort extrême, matière douce et respirante."
+    },
+    {
+      "id": 8,
+      "nom": "Brosse à Dent Électrique",
+      "prix": 29,
+      "ancienPrix": 45,
+      "image": "images/p8.jpg",
+      "categorie": "Beauté",
+      "badge": "Best Seller",
+      "description": "Nettoyage en profondeur pour un sourire éclatant."
+    },
+    {
+      "id": 9,
+      "nom": "Sac à Dos Business",
+      "prix": 52,
+      "ancienPrix": 80,
+      "image": "images/p9.jpg",
+      "categorie": "Mode",
+      "badge": "Top Vente",
+      "description": "Élégant, spacieux et conçu pour vos journées chargées."
+    },
+    {
+      "id": 10,
+      "nom": "Coffret Cuisine Minimal",
+      "prix": 65,
+      "ancienPrix": 90,
+      "image": "images/p10.jpg",
+      "categorie": "Maison",
+      "badge": "Nouveau",
+      "description": "Accessoires essentiels pour une cuisine fonctionnelle."
+    },
+    {
+      "id": 11,
+      "nom": "Écouteurs Sans Fil Air",
+      "prix": 45,
+      "ancienPrix": 70,
+      "image": "images/p11.jpg",
+      "categorie": "Audio",
+      "badge": "Best Seller",
+      "description": "Design discret, qualité sonore et boîte de rangement."
+    },
+    {
+      "id": 12,
+      "nom": "Appareil de Massage Portable",
+      "prix": 77,
+      "ancienPrix": 120,
+      "image": "images/p12.jpg",
+      "categorie": "Bien-être",
+      "badge": "Très demandé",
+      "description": "Soulage les tensions quotidiennes en quelques minutes."
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

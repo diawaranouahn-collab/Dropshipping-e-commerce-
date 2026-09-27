@@ -1,103 +1,337 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>TRASI — Boutique</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="topbar">
-    <div class="topbadges">
-      <span class="badge">Livraison 48h</span>
-      <span class="badge">Garantie 2 ans</span>
-      <span class="badge">Paiement sécurisé</span>
-    </div>
-    <div class="header-main">
-      <div class="logo">TRASI</div>
-      <div class="search">
-        <input id="searchInput" type="search" placeholder="Rechercher un produit, ex: chargeur, montre...">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TRASI — Boutique dropshipping ultra pro. Livraison 48h, garantie 2 ans et paiement sécurisé." />
+    <title>TRASI | Boutique générale</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="top-promo">
+        <span>Livraison 48h</span>
+        <span>Garantie 2 ans</span>
+        <span>Paiement sécurisé</span>
       </div>
-      <div class="cart-area">
-        <a href="checkout.html" class="cart-link">Panier <span id="cart-count">0</span></a>
-      </div>
-    </div>
-    <nav class="main-nav">
-      <a href="index.html">Accueil</a>
-      <a href="about.html">À propos</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <main class="container">
-    <section class="hero">
-      <h1>La boutique ULTRA PRO généraliste — Livraison 48h</h1>
-      <p>Produits sélectionnés, service premium, retours 14 jours, paiement à la livraison.</p>
-    </section>
+      <div class="header-main container">
+        <a href="index.html" class="brand" aria-label="Accueil TRASI">TRASI</a>
 
-    <section class="why-trasi">
-      <h2>Pourquoi TRASI ?</h2>
-      <div class="features">
-        <div class="feature">
-          <div class="icon">🚚</div>
-          <h3>Expédition rapide</h3>
-          <p>Expédition 24h, livraison 48h.</p>
+        <div class="search-box">
+          <input id="searchInput" type="search" placeholder="Rechercher un produit..." />
         </div>
-        <div class="feature">
-          <div class="icon">🔒</div>
-          <h3>Paiement sécurisé</h3>
-          <p>Paiement à la livraison ou par carte sécurisée.</p>
-        </div>
-        <div class="feature">
-          <div class="icon">⭐</div>
-          <h3>Qualité vérifiée</h3>
-          <p>Produits testés par notre équipe.</p>
-        </div>
-        <div class="feature">
-          <div class="icon">↩️</div>
-          <h3>Retours 14j</h3>
-          <p>Vous n'êtes pas satisfait ? Retour facile sous 14 jours.</p>
+
+        <div class="header-actions">
+          <a href="checkout.html" class="cart-pill">
+            Panier <span id="cart-count">0</span>
+          </a>
         </div>
       </div>
-    </section>
 
-    <section class="products-section">
-      <h2>Nos produits phares</h2>
-      <div id="productsGrid" class="products-grid"></div>
-    </section>
-
-    <section class="testimonials">
-      <h2>Témoignages clients</h2>
-      <div class="testi-grid">
-        <blockquote>"Livraison ultra rapide, produit conforme. Je recommande TRASI." — Camille</blockquote>
-        <blockquote>"Service client réactif, tout s'est bien passé." — Julien</blockquote>
-        <blockquote>"Bon rapport qualité prix." — Marion</blockquote>
-      </div>
-    </section>
-  </main>
-
-  <a class="whatsapp" href="https://wa.me/33600000000?text=Bonjour%20TRASI%20%2C%20j%27ai%20besoin%20d%27aide" target="_blank">Besoin d'aide ?</a>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="col">
-        <h4>TRASI</h4>
-        <p>Service client: +33 6 00 00 00 00</p>
-        <p>Email: contact@trasi.example</p>
-      </div>
-      <div class="col">
-        <h4>Informations</h4>
+      <nav class="main-nav container" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
         <a href="about.html">À propos</a>
         <a href="contact.html">Contact</a>
-      </div>
-      <div class="col">
-        <h4>Suivez-nous</h4>
-        <p>Facebook · Instagram · Twitter</p>
-      </div>
-    </div>
-    <div class="copyright">© TRASI — Tous droits réservés</div>
-  </footer>
+      </nav>
+    </header>
 
-  <script src="app.js"></script>
-</body>
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Boutique générale premium</p>
+          <h1>Des produits qui vendent, livrés en 48h.</h1>
+          <p class="subtext">
+            Pas de stock, pas de galère. Nous sélectionnons les meilleurs produits et
+            livrons directement chez vous, sans attente ni frais cachés.
+          </p>
+          <div class="hero-actions">
+            <a href="#products" class="primary-btn">Acheter maintenant</a>
+            <a href="about.html" class="secondary-btn">Découvrir TRASI</a>
+          </div>
+          <ul class="mini-features">
+            <li>Expédition 24h</li>
+            <li>Retours 14 jours</li>
+            <li>Paiement à la livraison</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="mini-badge">Best Seller</div>
+            <img src="images/p1.jpg" alt="Produit vedette TRASI" onerror="this.onerror=null;this.src='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent('<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'600\' height=\'600\'><rect width=\'100%\' height=\'100%\' fill=\'#f2f2f2\'/><text x=\'50%\' y=\'50%\' dominant-baseline=\'middle\' text-anchor=\'middle\' font-size=\'36\' fill=\'#333\' font-family=\'Arial\'>TRASI</text></svg>');" />
+          </div>
+        </div>
+      </section>
+
+      <section class="why-trasi container">
+        <div class="section-head">
+          <p class="eyebrow">Pourquoi TRASI ?</p>
+          <h2>Votre boutique de confiance</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">🚚</div>
+            <h3>Expédition rapide</h3>
+            <p>Commandes préparées sous 24h et livrées en 48h maximum.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🔒</div>
+            <h3>Paiement sécurisé</h3>
+            <p>Transactions sécurisées et paiement à la livraison disponible.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">⭐</div>
+            <h3>Produits vérifiés</h3>
+            <p>Nous ne sélectionnons que les produits qui convertissent et qui rassurent.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">↩️</div>
+            <h3>Retours 14 jours</h3>
+            <p>Satisfait ou remboursé selon les conditions de notre politique.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="products" class="products-section container">
+        <div class="section-head split">
+          <div>
+            <p class="eyebrow">Nos bestsellers</p>
+            <h2>Produits populaires</h2>
+          </div>
+          <a href="produit.html?id=1" class="link-inline">Voir le produit vedette</a>
+        </div>
+
+        <div id="productsGrid" class="products-grid"></div>
+      </section>
+
+      <section class="testimonials container">
+        <div class="section-head">
+          <p class="eyebrow">Avis clients</p>
+          <h2>Ils ont choisi TRASI</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>“Livraison ultra rapide, le produit est exactement comme décrit. Très satisfaite.”</p>
+            <strong>Camille D.</strong>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>“J’ai commandé 2 articles et tout s’est bien passé. Qualité au rendez-vous.”</p>
+            <strong>Julien M.</strong>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>“Site clair, service client réactif et livraison très rapide. Je recommande.”</p>
+            <strong>Marion S.</strong>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <a href="https://wa.me/33600000000?text=Bonjour%20TRASI%20%2C%20j%27ai%20besoin%20d%27aide" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+      Besoin d'aide ?
+    </a>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <h3>TRASI</h3>
+          <p>La boutique générale pensée pour convertir et livrer vite.</p>
+        </div>
+
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>+33 6 00 00 00 00</li>
+            <li>contact@trasi.example</li>
+            <li>Paris, France</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2026 TRASI — Tous droits réservés</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
