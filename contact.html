@@ -17,15 +17,16 @@
       <div class="header-main container">
         <a href="index.html" class="brand" aria-label="Accueil TRASI">TRASI</a>
         <div class="search-box">
-          <input type="search" placeholder="Rechercher un produit..." />
+          <input type="search" placeholder="Rechercher un produit..." aria-label="Rechercher un produit" />
         </div>
         <div class="header-actions">
           <a href="checkout.html" class="cart-pill">Panier <span id="cart-count">0</span></a>
         </div>
       </div>
 
-      <nav class="main-nav container">
+      <nav class="main-nav container" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
+        <a href="produit.html">Produits</a>
         <a href="about.html">À propos</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -50,10 +51,10 @@
 
         <div class="contact-card">
           <h3>Envoyer un message</h3>
-          <form>
-            <input type="text" placeholder="Nom complet" />
-            <input type="email" placeholder="Email" />
-            <textarea rows="5" placeholder="Votre message..."></textarea>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Nom complet" aria-label="Nom complet" required />
+            <input type="email" name="email" placeholder="Email" aria-label="Email" required />
+            <textarea name="message" rows="5" placeholder="Votre message..." aria-label="Votre message" required></textarea>
             <button type="submit" class="primary-btn">Envoyer</button>
           </form>
         </div>
@@ -72,6 +73,7 @@
           <h4>Navigation</h4>
           <ul>
             <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
             <li><a href="about.html">À propos</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -91,23 +93,3 @@
     <script src="app.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

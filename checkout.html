@@ -17,15 +17,16 @@
       <div class="header-main container">
         <a href="index.html" class="brand" aria-label="Accueil TRASI">TRASI</a>
         <div class="search-box">
-          <input type="search" placeholder="Rechercher un produit..." />
+          <input type="search" placeholder="Rechercher un produit..." aria-label="Rechercher un produit" />
         </div>
         <div class="header-actions">
           <a href="checkout.html" class="cart-pill">Panier <span id="cart-count">0</span></a>
         </div>
       </div>
 
-      <nav class="main-nav container">
+      <nav class="main-nav container" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
+        <a href="produit.html">Produits</a>
         <a href="about.html">À propos</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -34,16 +35,16 @@
     <main class="container">
       <section class="page-header">
         <p class="eyebrow">Votre commande</p>
-        <h1>Panier & checkout</h1>
+        <h1>Panier &amp; checkout</h1>
       </section>
 
       <div class="checkout-layout">
         <div class="checkout-container">
           <h3>Informations client</h3>
           <form id="checkoutForm" class="checkout-form">
-            <input id="customerName" type="text" placeholder="Nom complet" />
-            <input id="customerPhone" type="tel" placeholder="Téléphone" />
-            <textarea id="customerAddress" rows="4" placeholder="Adresse complète"></textarea>
+            <input id="customerName" name="customerName" type="text" placeholder="Nom complet" aria-label="Nom complet" required />
+            <input id="customerPhone" name="customerPhone" type="tel" placeholder="Téléphone" aria-label="Téléphone" required />
+            <textarea id="customerAddress" name="customerAddress" rows="4" placeholder="Adresse complète" aria-label="Adresse complète" required></textarea>
             <button type="submit" class="submit-order">Valider la commande</button>
             <div id="orderMessage" role="status" aria-live="polite"></div>
           </form>
@@ -72,6 +73,7 @@
           <h4>Navigation</h4>
           <ul>
             <li><a href="index.html">Accueil</a></li>
+            <li><a href="produit.html">Produits</a></li>
             <li><a href="about.html">À propos</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -91,20 +93,3 @@
     <script src="app.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
