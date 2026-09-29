@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panier | TRASI</title>
+    <meta name="description" content="Paiement à la livraison - TRASI" />
+    <title>Panier & Paiement | TRASI</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,7 +12,7 @@
       <div class="top-promo">
         <span>Livraison 48h</span>
         <span>Garantie 2 ans</span>
-        <span>Paiement sécurisé</span>
+        <span>Paiement à la livraison</span>
       </div>
 
       <div class="header-main container">
@@ -35,16 +36,28 @@
     <main class="container">
       <section class="page-header">
         <p class="eyebrow">Votre commande</p>
-        <h1>Panier &amp; checkout</h1>
+        <h1>Panier &amp; livraison</h1>
       </section>
 
       <div class="checkout-layout">
         <div class="checkout-container">
           <h3>Informations client</h3>
           <form id="checkoutForm" class="checkout-form">
-            <input id="customerName" name="customerName" type="text" placeholder="Nom complet" aria-label="Nom complet" required />
-            <input id="customerPhone" name="customerPhone" type="tel" placeholder="Téléphone" aria-label="Téléphone" required />
-            <textarea id="customerAddress" name="customerAddress" rows="4" placeholder="Adresse complète" aria-label="Adresse complète" required></textarea>
+            <input id="customerName" type="text" placeholder="Nom complet" required />
+            <input id="customerPhone" type="tel" placeholder="Téléphone" required />
+            <textarea id="customerAddress" rows="4" placeholder="Adresse complète" required></textarea>
+
+            <div class="payment-info">
+              <h3>Méthode de paiement</h3>
+              <div class="payment-option selected">
+                <input type="radio" id="paymentDelivery" name="payment" checked />
+                <label for="paymentDelivery">
+                  <strong>💳 Paiement à la livraison</strong>
+                  <span>Payez directement au livreur</span>
+                </label>
+              </div>
+            </div>
+
             <button type="submit" class="submit-order">Valider la commande</button>
             <div id="orderMessage" role="status" aria-live="polite"></div>
           </form>
