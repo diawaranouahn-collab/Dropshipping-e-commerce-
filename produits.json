@@ -2,163 +2,123 @@
   "produits": [
     {
       "id": 1,
-      "nom": "Casque Audio Bluetooth Pro",
-      "prix": 59,
-      "ancienPrix": 89,
-      "image": "images/p1.jpg",
-      "categorie": "Électronique",
-      "badge": "Best Seller",
-      "description": "Casque léger, son équilibré et autonomie jusqu'à 20h."
+      "nom": "Smartphone Pro Max 256GB",
+      "prix": 799,
+      "ancienPrix": 999,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Téléphone",
+      "badge": "Nouveau",
+      "description": "Écran AMOLED 6.7, caméra 108MP, batterie 5000mAh, performances premium."
     },
     {
       "id": 2,
-      "nom": "Montre Connectée Sport",
-      "prix": 69,
-      "ancienPrix": 99,
-      "image": "images/p2.jpg",
-      "categorie": "Accessoires",
-      "badge": "Top Vente",
-      "description": "Suivi de sport, fréquence cardiaque et notifications."
+      "nom": "Téléphone Ultra 5G",
+      "prix": 599,
+      "ancienPrix": 799,
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Téléphone",
+      "badge": "Best Seller",
+      "description": "Design premium, 5G ultra rapide et autonomie renforcée pour la journée."
     },
     {
       "id": 3,
-      "nom": "Chargeur Rapide USB-C",
-      "prix": 22,
-      "ancienPrix": 35,
-      "image": "images/p3.jpg",
-      "categorie": "Électronique",
-      "badge": "Promotion",
-      "description": "Charge rapide 65W pour smartphone, tablette et PC portable."
+      "nom": "T-Shirt Premium Coton Bio",
+      "prix": 39,
+      "ancienPrix": 60,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
+      "badge": "Haut de Gamme",
+      "description": "100% coton bio, coupe élégante et confort quotidien garanti."
     },
     {
       "id": 4,
-      "nom": "Lampe LED Design",
-      "prix": 39,
-      "ancienPrix": 60,
-      "image": "images/p4.jpg",
-      "categorie": "Maison",
-      "badge": "Nouveau",
-      "description": "Ambiance lumineuse moderne et réglable selon vos envies."
+      "nom": "Jeans Slim Fit Tendance",
+      "prix": 69,
+      "ancienPrix": 99,
+      "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
+      "badge": "Très demandé",
+      "description": "Coupe moderne, matière stretch, parfait pour un look chic et confortable."
     },
     {
       "id": 5,
-      "nom": "Tondeuse Electrique Compact",
-      "prix": 74,
-      "ancienPrix": 110,
-      "image": "images/p5.jpg",
-      "categorie": "Jardin",
-      "badge": "Best Seller",
-      "description": "Puissante, légère, et facile à ranger après usage."
+      "nom": "Veste de Sport Imperméable",
+      "prix": 89,
+      "ancienPrix": 129,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
+      "badge": "Top Vente",
+      "description": "Idéale pour le quotidien et les sorties sportives, légère et respirante."
     },
     {
       "id": 6,
-      "nom": "Mini Projecteur Portable",
-      "prix": 99,
-      "ancienPrix": 149,
-      "image": "images/p6.jpg",
-      "categorie": "Multimédia",
-      "badge": "Haut de Gamme",
-      "description": "Projection claire en intérieur ou en plein air."
+      "nom": "Casque Audio Bluetooth Pro",
+      "prix": 59,
+      "ancienPrix": 89,
+      "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Électronique",
+      "badge": "Best Seller",
+      "description": "Son équilibré, autonomie jusqu'à 20h et design compact."
     },
     {
       "id": 7,
-      "nom": "Botte de Nuit Premium",
-      "prix": 34,
-      "ancienPrix": 54,
-      "image": "images/p7.jpg",
-      "categorie": "Beauté",
-      "badge": "Très demandé",
-      "description": "Confort extrême, matière douce et respirante."
+      "nom": "Chargeur Rapide USB-C",
+      "prix": 22,
+      "ancienPrix": 35,
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Électronique",
+      "badge": "Promotion",
+      "description": "Charge rapide 65W, compatible smartphone, tablette et laptop."
     },
     {
       "id": 8,
-      "nom": "Brosse à Dent Électrique",
-      "prix": 29,
-      "ancienPrix": 45,
-      "image": "images/p8.jpg",
-      "categorie": "Beauté",
-      "badge": "Best Seller",
-      "description": "Nettoyage en profondeur pour un sourire éclatant."
-    },
-    {
-      "id": 9,
       "nom": "Sac à Dos Business",
       "prix": 52,
       "ancienPrix": 80,
-      "image": "images/p9.jpg",
-      "categorie": "Mode",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Accessoires",
       "badge": "Top Vente",
-      "description": "Élégant, spacieux et conçu pour vos journées chargées."
+      "description": "Spacieux, élégant et pratique pour les journées actives."
+    },
+    {
+      "id": 9,
+      "nom": "Téléphone Compact Lite",
+      "prix": 349,
+      "ancienPrix": 449,
+      "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Téléphone",
+      "badge": "Promotion",
+      "description": "Parfait pour les usages quotidiens avec un écran fluide et une batterie solide."
     },
     {
       "id": 10,
-      "nom": "Coffret Cuisine Minimal",
-      "prix": 65,
-      "ancienPrix": 90,
-      "image": "images/p10.jpg",
-      "categorie": "Maison",
+      "nom": "Robe Élégante Soirée",
+      "prix": 119,
+      "ancienPrix": 179,
+      "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
       "badge": "Nouveau",
-      "description": "Accessoires essentiels pour une cuisine fonctionnelle."
+      "description": "Silhouette élégante et matière fluide pour les occasions spéciales."
     },
     {
       "id": 11,
-      "nom": "Écouteurs Sans Fil Air",
-      "prix": 45,
-      "ancienPrix": 70,
-      "image": "images/p11.jpg",
-      "categorie": "Audio",
+      "nom": "Pantalon Chino Classique",
+      "prix": 59,
+      "ancienPrix": 85,
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
       "badge": "Best Seller",
-      "description": "Design discret, qualité sonore et boîte de rangement."
+      "description": "Coupe classique, tissu confortable et finitions premium."
     },
     {
       "id": 12,
-      "nom": "Appareil de Massage Portable",
-      "prix": 77,
-      "ancienPrix": 120,
-      "image": "images/p12.jpg",
-      "categorie": "Bien-être",
+      "nom": "Hoodie Confort Sherpa",
+      "prix": 79,
+      "ancienPrix": 119,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+      "categorie": "Vêtements",
       "badge": "Très demandé",
-      "description": "Soulage les tensions quotidiennes en quelques minutes."
+      "description": "Ultra doux, parfait pour l'hiver, avec capuche ajustable et poches profondes."
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

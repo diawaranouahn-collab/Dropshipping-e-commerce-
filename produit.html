@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produit | TRASI</title>
+    <meta name="description" content="Tous nos produits - TRASI boutique e-commerce" />
+    <title>Produits | TRASI</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,13 +12,13 @@
       <div class="top-promo">
         <span>Livraison 48h</span>
         <span>Garantie 2 ans</span>
-        <span>Paiement sécurisé</span>
+        <span>Paiement à la livraison</span>
       </div>
 
       <div class="header-main container">
         <a href="index.html" class="brand" aria-label="Accueil TRASI">TRASI</a>
         <div class="search-box">
-          <input type="search" placeholder="Rechercher un produit..." aria-label="Rechercher un produit" />
+          <input id="searchInput" type="search" placeholder="Rechercher un produit..." aria-label="Rechercher un produit" />
         </div>
         <div class="header-actions">
           <a href="checkout.html" class="cart-pill">Panier <span id="cart-count">0</span></a>
@@ -26,7 +27,7 @@
 
       <nav class="main-nav container" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
-        <a href="produit.html">Produits</a>
+        <a href="produit.html" class="active">Produits</a>
         <a href="about.html">À propos</a>
         <a href="contact.html">Contact</a>
       </nav>
@@ -34,11 +35,25 @@
 
     <main class="container">
       <section class="page-header">
-        <p class="eyebrow">Produit</p>
-        <h1>Fiche produit</h1>
+        <p class="eyebrow">Boutique</p>
+        <h1>Tous nos produits</h1>
+        <p>Smartphones, vêtements et accessoires premium.</p>
       </section>
 
-      <div id="productDetail"></div>
+      <section class="filter-section">
+        <div class="filters">
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="Téléphone">Téléphones</button>
+            <button class="filter-btn" data-filter="Vêtements">Vêtements</button>
+            <button class="filter-btn" data-filter="Électronique">Électronique</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="products-section">
+        <div id="productsGrid" class="products-grid"></div>
+      </section>
     </main>
 
     <a href="https://wa.me/33600000000?text=Bonjour%20TRASI%20%2C%20j%27ai%20besoin%20d%27aide" class="floating-whatsapp" target="_blank" rel="noopener noreferrer">Besoin d'aide ?</a>
@@ -47,7 +62,7 @@
       <div class="container footer-content">
         <div>
           <h3>TRASI</h3>
-          <p>La boutique générale pensée pour convertir et livrer vite.</p>
+          <p>La boutique premium pensée pour convertir et livrer vite.</p>
         </div>
         <div>
           <h4>Navigation</h4>
@@ -71,5 +86,37 @@
     </footer>
 
     <script src="app.js"></script>
+    <script>
+      async function renderCatalog() {
+        const grid = document.getElementById('productsGrid');
+        const products = await loadProducts();
+
+        function renderList(list) {
+          grid.innerHTML = list.map((product) => buildProductCard(product)).join('');
+        }
+
+        renderList(products);
+
+        document.querySelectorAll('.filter-btn').forEach((button) => {
+          button.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach((btn) => btn.classList.remove('active'));
+            button.classList.add('active');
+            const filter = button.dataset.filter;
+            const filtered = filter === 'all' ? products : products.filter((p) => p.categorie === filter);
+            renderList(filtered);
+          });
+        });
+
+        document.getElementById('searchInput')?.addEventListener('input', (event) => {
+          const q = event.target.value.trim().toLowerCase();
+          const filtered = products.filter((product) =>
+            product.nom.toLowerCase().includes(q) || product.categorie.toLowerCase().includes(q)
+          );
+          renderList(filtered);
+        });
+      }
+
+      document.addEventListener('DOMContentLoaded', renderCatalog);
+    </script>
   </body>
 </html>
